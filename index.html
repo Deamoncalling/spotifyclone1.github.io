@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Playlist</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li class="brand"><img src="logo1.png" alt="Spotify" /></li>
+        <li>About</li>
+        <li>Home</li>
+      </ul>
+    </nav>
+    <div class="container">
+      
+      <div class="songList">
+        <h1>Best Hits of All Time</h1>
+        <div class="songItemContainer">
+            <div class="songItem ">
+                <img  alt="2Pac">
+                <span class="songName">All eyez on Me</span>
+                <span class="songplaylist"><span class="timpeStamp">04:49<i id="1" class="fa-solid songItemPlay  fa-circle-play"></i></span></span>
+            </div> 
+            <div class="songItem ">
+                <img src="cover2.jpg" alt="Dr DRe">
+                <span class="songName">Still Dre</span>
+                <span class="songplaylist"><span class="timpeStamp">04:28<i id="2" class="fa-solid songItemPlay  fa-circle-play"></i></span></span>
+            </div>
+            <div class="songItem ">
+                <img  alt="JAy Z">
+                <span class="songName">Nig**s in Paris</span>
+                <span class="songplaylist"><span class="timpeStamp">03:39<i id="3" class="fa-solid songItemPlay  fa-circle-play"></i></span></span>
+            </div>
+            <div class="songItem ">
+                <img  alt="Kanye">
+                <span class="songName">Stronger</span>
+                <span class="songplaylist"><span class="timpeStamp">05:11<i id="4" class="fa-solid songItemPlay  fa-circle-play"></i></span></span>
+            </div>
+            <div class="songItem ">
+                <img  alt="Biggie">
+                <span class="songName">Juicy</span>
+                <span class="songplaylist"><span class="timpeStamp">05:02<i id="5" class="fa-solid songItemPlay  fa-circle-play"></i></span></span>
+            </div>
+            <div class="songItem ">
+                <img  alt="Ice Cube">
+                <span class="songName">Good Day</span>
+                <span class="songplaylist"><span class="timpeStamp">04:20<i id="6" class="fa-solid songItemPlay  fa-circle-play"></i></span></span>
+            </div>
+            <div class="songItem ">
+                <img  alt="Lil Wayne">
+                <span class="songName">A milli</span>
+                <span class="songplaylist"><span class="timpeStamp">03:41<i id="7" class="fa-solid songItemPlay   fa-circle-play"></i></span></span>
+            </div>
+            <div class="songItem ">
+                <img  alt="50 Cent">
+                <span class="songName">In DA Club</span>
+                <span class="songplaylist"><span class="timpeStamp">03:16<i id="8" class="fa-solid songItemPlay  fa-circle-play"></i></span></span>
+            </div>
+            <div class="songItem ">
+              <img  alt="2Pac">
+              <span class="songName">We dem Boz</span>
+              <span class="songplaylist"><span class="timpeStamp">03:45<i id="9" class="fa-solid songItemPlay  fa-circle-play"></i></span></span>
+          </div>
+          <div class="songItem ">
+            <img  alt="2Pac">
+            <span class="songName">Loose Yourself</span>
+            <span class="songplaylist"><span class="timpeStamp">05:22<i id="10" class="fa-solid songItemPlay  fa-circle-play"></i></span></span>
+        </div>
+            
+        </div>
+      </div>
+        <div class="songbanner"></div>
+    </div>
+      
+
+    <div class="bottom">
+        <input type="range" name="range"   min="0" value="0" max="100" id="myProgressBar" />
+        <div class="icons">
+          <i class="fa-solid fa-2x fa-backward" id="previous"></i>
+          <i class="fa-solid fa-2x fa-circle-play" id="masterPlay"></i>
+          <i class="fa-solid fa-2x fa-forward" id="next"></i>
+        </div>
+        <div class="songinfo">
+            <img src="gif2.gif" width="50px" id="gif"> <span id="masterSongName"></span>
+
+        </div>
+      
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/2c8814c366.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
